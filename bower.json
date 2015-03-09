@@ -2,7 +2,8 @@
   "name": "laima",
   "version": "0.1.0",
   "dependencies": {
-    "jquery": "1.11.2"
+    "jquery": "1.11.2",
+    "riot": "~2.0.12"
   },
   "ignore": [
     "test"

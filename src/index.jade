@@ -2,17 +2,17 @@ doctype html
 html(lang="en")
   head
     meta(charset="utf-8")
-    title Welcome To Laima
+    title Emotion - riotjs version
     link(href="css/application.css" rel="stylesheet" type="text/css")
     meta(name="viewport" content="width=device-width,initial-scale=1")
 
   body
-    helloworld
+    emotion
 
     script(src="bower/jquery/dist/jquery.min.js")
     script(src="js/vendor/materialize.min.js")
     script(src="bower/riot/riot+compiler.min.js")
-    script(src="js/views/helloworld.tag" type="riot/tag")
+    script(src="js/views/emotion.tag" type="riot/tag")
 
     script(type='text/javascript').
-      riot.mount('helloworld', {title: 'Hello World!'})
+      riot.mount('emotion', {title: 'Emotion'})
