@@ -7,7 +7,12 @@ html(lang="en")
     meta(name="viewport" content="width=device-width,initial-scale=1")
 
   body
-    h1 Welcome To Laima
+    helloworld
 
-    script(data-main="js/main.js" src="bower/requirejs/require.js")
+    //- script(data-main="js/main.js" src="bower/requirejs/require.js")
+    script(src="bower/riot/riot+compiler.min.js")
+    script(src="js/templates/helloworld.tag" type="riot/tag")
+
+    script(type='text/javascript').
+      riot.mount('helloworld', {title: 'Hello World!'})
     //- script(data-main="js/app.js" src="bower/requirejs/require.js")
