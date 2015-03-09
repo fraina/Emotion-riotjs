@@ -9,10 +9,10 @@ html(lang="en")
   body
     helloworld
 
-    //- script(data-main="js/main.js" src="bower/requirejs/require.js")
+    script(src="bower/jquery/dist/jquery.min.js")
+    script(src="js/vendor/materialize.min.js")
     script(src="bower/riot/riot+compiler.min.js")
-    script(src="js/templates/helloworld.tag" type="riot/tag")
+    script(src="js/views/helloworld.tag" type="riot/tag")
 
     script(type='text/javascript').
       riot.mount('helloworld', {title: 'Hello World!'})
-    //- script(data-main="js/app.js" src="bower/requirejs/require.js")
