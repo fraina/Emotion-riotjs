@@ -2,11 +2,7 @@
   "name": "laima",
   "version": "0.1.0",
   "dependencies": {
-    "jquery": "1.11.2",
-    "backbone": "1.1.2",
-    "requirejs": "2.1.16",
-    "requirejs-text": "2.0.13",
-    "requirejs-i18n": "2.0.4"
+    "jquery": "1.11.2"
   },
   "ignore": [
     "test"
@@ -25,37 +21,6 @@
         "*.json",
         "*.txt",
         "src/**"
-      ]
-    },
-    "backbone": {
-      "ignore": [
-        "*.md",
-        "*.html",
-        "CNAME",
-        "LICENSE",
-        ".*",
-        "*.json",
-        "index.js"
-      ]
-    },
-    "requirejs": {
-      "ignore": [
-        "*.json",
-        "*.md"
-      ]
-    },
-    "requirejs-i18n": {
-      "ignore": [
-        "*.json",
-        "*.md",
-        "LICENSE"
-      ]
-    },
-    "requirejs-text": {
-      "ignore": [
-        "*.json",
-        "*.md",
-        "LICENSE"
       ]
     },
     "underscore": {
