@@ -1,16 +1,20 @@
 <filter>
-  <div class="row s12">
-    <form class="col s6">
-      <div class="row">
-        <div class="input-field col s6">
-          <input id="first_name" type="text" class="validate">
-          <label for="first_name">First Name</label>
-        </div>
-        <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
-          <label for="last_name">Last Name</label>
-        </div>
-      </div>
-    </form>
+  <div class="input-field col m6 s12">
+    <input id="filter" type="text" class="validate" oninput={ filterInput }>
+    <label for="filter">Filter</label>
   </div>
+  <div class="input-field col m6 s12">
+    <input id="target" type="text" class="validate" oninput={ filterTarget }>
+    <label for="target">Target</label>
+  </div>
+
+  filterInput(e) {
+    var keyword = $(e.target).val();
+    RiotControl.trigger('FILTER', keyword)
+  }
+
+  filterTarget(e) {
+    var targetID = $(e.target).val();
+    RiotControl.trigger('SET_TARGET', targetID)
+  }
 </filter>

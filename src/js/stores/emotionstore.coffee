@@ -1,20 +1,52 @@
 EmotionStore = ->
   riot.observable this
 
-  self = this
+  KEYS = ['command', 'tarNone', 'tarTarget']
   emotions = []
   filters = []
+  targetID = ''
+  activeCommand = {}
 
-  # fetch 回所有資料
-  self.on('FETCH_DATA', (url) ->
+  # fetch 所有資料
+  this.on('FETCH_DATA', (url) ->
     $.getJSON(url)
     .done((data) ->
-      console.log 'getJSON successful!'
-      console.log data[0]
-      return
+      _.each(data, (emotion) ->
+        emotions.push(emotion)
+      )
     )
   )
 
-  # SEARCH (params)：Reg 條件查詢，結果存放在 filters   return [filters]
-  # GET_NORMAL (params)：根據 params 從 filters 尋找目標，回傳無目標時文字   return string
-  # GET_TARGET (params, target)：根據(ry)，回傳有目標時文字   return string
+  this.on('EMOTIONS_INIT', () ->
+    this.trigger('GET_DATA', emotions)
+  )
+
+  this.on('FILTER', (keyword) ->
+    ret = []
+    _.each(emotions, (emotion) ->
+      match = false
+      for key in KEYS
+        if (emotion[key].indexOf(keyword.toLowerCase()) != -1)
+          match = true
+      if (match)
+        ret.push(emotion)
+    )
+    filters = ret
+    this.trigger('FILTER_DONE', filters)
+  )
+
+  this.on('SET_TARGET', (id) ->
+    targetID = id
+    this.trigger('SET_TARGET_DONE')
+  )
+
+  this.on('SET_COMMAND', (command) ->
+    rets = if (_.size(filters) != 0) then filters else emotions
+    _.each(rets, (ret) ->
+      if (ret.command == command)
+        activeCommand = ret
+    )
+    this.trigger('SET_COMMAND_DONE', activeCommand)
+  )
+
+  return

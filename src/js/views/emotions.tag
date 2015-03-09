@@ -1,13 +1,29 @@
 <emotions>
-  <div class="row">
-    <ul>
-      <li each={ tags } class="waves-effect waves-light btn"> { title } </li>
-    </ul>
-  </div>
+  <button each={ tags } class="waves-effect waves-light btn mrs mbs">
+    { command }
+  </button>
 
-  this.tags = [
-    { title: '123' },
-    { title: '456' },
-    { title: '789' }
-  ]
+  var self = this;
+
+  this.tags = [];
+
+  this.on('mount', function() {
+    RiotControl.trigger('EMOTIONS_INIT');
+  })
+
+  $(document).on('click', 'button', function(e) {
+    var command = ($(e.target).text()).trim();
+    RiotControl.trigger('SET_COMMAND', command);
+  })
+
+  RiotControl.on('GET_DATA', function(data) {
+    self.tags = data
+    self.update()
+  })
+
+  RiotControl.on('FILTER_DONE', function(data) {
+    self.tags = data
+    self.update()
+  })
+
 </emotions>
