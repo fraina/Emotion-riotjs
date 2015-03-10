@@ -32,6 +32,7 @@ html(lang="en")
       var emotionStore = new EmotionStore();
       RiotControl.addStore(emotionStore);
 
+      // 資料讀取完後才啟動視圖
       $.getJSON('js/data.json').done(function(data) {
         var ret = [];
         _.each(data, function(emotion) {
