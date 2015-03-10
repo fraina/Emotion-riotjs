@@ -11,7 +11,7 @@
 
   RiotControl.on(actionTypes.GET_RANDOM_COMMAND, function(randomCommand) {
     self.currentCommand = randomCommand;
-    self.description = self.currentCommand.tarNone;
+    getCurrentDescription();
     self.update();
   })
 
@@ -29,7 +29,7 @@
   getCurrentDescription = function(targetID) {
     var noTargetStr = self.currentCommand.tarNone,
         tarTargetStr = self.currentCommand.tarTarget;
-    self.description = (_.size(targetID) > 0) ? tarTargetStr.replace(/:target/, targetID) : noTargetStr;
+    self.description = (targetID && _.size(targetID) > 0) ? tarTargetStr.replace(/:target/, targetID) : noTargetStr;
   }
 
 </describe>
