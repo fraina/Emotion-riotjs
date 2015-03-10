@@ -4,16 +4,15 @@
   </button>
 
   var self = this;
-
   this.tags = [];
-
-  this.on('mount', function() {
-    RiotControl.trigger(actionTypes.TAGS_INIT)
-  })
 
   $(document).on('click', 'button', function(e) {
     var command = ($(e.target).text()).trim();
     RiotControl.trigger(actionTypes.SET_COMMAND, command);
+  })
+
+  this.on('mount', function() {
+    RiotControl.trigger(actionTypes.TAGS_INIT)
   })
 
   RiotControl.on(actionTypes.FETCH_DATA_DONE, function(data) {
@@ -21,8 +20,8 @@
     self.update()
   })
 
-  RiotControl.on(actionTypes.GET_FILTER_RESULT, function(data) {
-    self.tags = data
+  RiotControl.on(actionTypes.GET_FILTER_RESULT, function(result) {
+    self.tags = result
     self.update()
   })
 

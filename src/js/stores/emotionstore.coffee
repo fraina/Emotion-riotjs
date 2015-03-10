@@ -21,6 +21,11 @@ EmotionStore = ->
     this.trigger(actionTypes.FETCH_DATA_DONE, emotions)
   )
 
+  this.on(actionTypes.DESCRIBE_INIT, () ->
+    randomCommand = emotions[Math.random() * emotions.length | 0]
+    this.trigger(actionTypes.GET_RANDOM_COMMAND, randomCommand)
+  )
+
   this.on(actionTypes.SET_FILTER, (keyword) ->
     ret = []
     _.each(emotions, (emotion) ->
@@ -37,7 +42,7 @@ EmotionStore = ->
 
   this.on(actionTypes.SET_TARGET, (id) ->
     targetID = id
-    this.trigger(actionTypes.SET_TARGET_DONE)
+    this.trigger(actionTypes.SET_TARGET_DONE, id)
   )
 
   this.on(actionTypes.SET_COMMAND, (command) ->
@@ -46,7 +51,7 @@ EmotionStore = ->
       if (ret.command == command)
         activeCommand = ret
     )
-    this.trigger(actionTypes.SET_COMMAND_DONE, activeCommand)
+    this.trigger(actionTypes.SET_COMMAND_DONE, [activeCommand, targetID])
   )
 
   return

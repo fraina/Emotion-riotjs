@@ -7,7 +7,7 @@ html(lang="en")
     meta(name="viewport" content="width=device-width,initial-scale=1")
 
   body
-    div.row.m8.s12
+    div.m8.s12
       emotion
 
     script(src="bower/jquery/dist/jquery.min.js")
@@ -22,10 +22,11 @@ html(lang="en")
     script(src="js/views/emotion.tag" type="riot/tag")
     script(src="js/views/filter.tag" type="riot/tag")
     script(src="js/views/emotions.tag" type="riot/tag")
+    script(src="js/views/describe.tag" type="riot/tag")
 
     script(type='text/javascript').
       var actionTypes = new EmotionActionTypes();
       var emotionStore = new EmotionStore();
       RiotControl.addStore(emotionStore);
       RiotControl.trigger(actionTypes.FETCH_DATA, 'js/data.json');
-      riot.mount('emotion', {info: 'RiotJS Practice*'})
+      riot.mount('emotion')
