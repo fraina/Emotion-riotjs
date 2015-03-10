@@ -15,7 +15,7 @@
     RiotControl.trigger(actionTypes.TAGS_INIT)
   })
 
-  RiotControl.on(actionTypes.FETCH_DATA_DONE, function(data) {
+  RiotControl.on(actionTypes.GET_TAGS_DATA, function(data) {
     self.tags = data
     self.update()
   })

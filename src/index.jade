@@ -31,5 +31,12 @@ html(lang="en")
       var actionTypes = new EmotionActionTypes();
       var emotionStore = new EmotionStore();
       RiotControl.addStore(emotionStore);
-      RiotControl.trigger(actionTypes.FETCH_DATA, 'js/data.json');
-      riot.mount('emotion')
+
+      $.getJSON('js/data.json').done(function(data) {
+        var ret = [];
+        _.each(data, function(emotion) {
+          ret.push(emotion);
+        });
+        emotionStore.emotions = ret;
+        riot.mount('emotion')
+      });
