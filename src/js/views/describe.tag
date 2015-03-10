@@ -2,21 +2,21 @@
   <h5>{ description }</h5>
 
   var self = this;
-  self.description = '';
-  self.currentCommand = {}
+  description = '';
+  currentCommand = {}
 
   this.on('mount', function() {
     RiotControl.trigger(actionTypes.DESCRIBE_INIT)
   })
 
   RiotControl.on(actionTypes.GET_RANDOM_COMMAND, function(randomCommand) {
-    self.currentCommand = randomCommand;
+    currentCommand = randomCommand;
     getCurrentDescription();
     self.update();
   })
 
   RiotControl.on(actionTypes.SET_COMMAND_DONE, function(opts) {
-    self.currentCommand = opts[0];
+    currentCommand = opts[0];
     getCurrentDescription(opts[1])
     self.update();
   })
@@ -27,8 +27,8 @@
   })
 
   getCurrentDescription = function(targetID) {
-    var noTargetStr = self.currentCommand.tarNone,
-        tarTargetStr = self.currentCommand.tarTarget;
+    var noTargetStr = currentCommand.tarNone,
+        tarTargetStr = currentCommand.tarTarget;
     self.description = (targetID && _.size(targetID) > 0) ? tarTargetStr.replace(/:target/, targetID) : noTargetStr;
   }
 
