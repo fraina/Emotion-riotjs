@@ -27,7 +27,7 @@ EmotionStore = ->
       match = false
       keys = self.KEYS
       for key in keys
-        if (self.emotion[key].indexOf(keyword.toLowerCase()) != -1)
+        if (emotion[key].indexOf(keyword.toLowerCase()) != -1)
           match = true
       if (match)
         ret.push(emotion)
@@ -49,7 +49,7 @@ EmotionStore = ->
       if (ret.command == command)
         self.activeCommand = ret
     )
-    this.trigger(actionTypes.SET_COMMAND_DONE, [self.activeCommand, targetID])
+    this.trigger(actionTypes.SET_COMMAND_DONE, [self.activeCommand, self.targetID])
   )
 
   return
