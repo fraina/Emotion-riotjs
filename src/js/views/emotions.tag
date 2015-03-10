@@ -1,5 +1,5 @@
 <emotions>
-  <button each={ tags } class="waves-effect waves-light btn mrs mbs">
+  <button each={ tags } class="waves-effect waves-light btn light-blue darken-3 mrs mbs">
     { command }
   </button>
 
@@ -8,20 +8,20 @@
   this.tags = [];
 
   this.on('mount', function() {
-    RiotControl.trigger('EMOTIONS_INIT');
+    RiotControl.trigger(actionTypes.TAGS_INIT)
   })
 
   $(document).on('click', 'button', function(e) {
     var command = ($(e.target).text()).trim();
-    RiotControl.trigger('SET_COMMAND', command);
+    RiotControl.trigger(actionTypes.SET_COMMAND, command);
   })
 
-  RiotControl.on('GET_DATA', function(data) {
+  RiotControl.on(actionTypes.FETCH_DATA_DONE, function(data) {
     self.tags = data
     self.update()
   })
 
-  RiotControl.on('FILTER_DONE', function(data) {
+  RiotControl.on(actionTypes.GET_FILTER_RESULT, function(data) {
     self.tags = data
     self.update()
   })

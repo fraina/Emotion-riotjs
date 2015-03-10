@@ -8,7 +8,7 @@ EmotionStore = ->
   activeCommand = {}
 
   # fetch 所有資料
-  this.on('FETCH_DATA', (url) ->
+  this.on(actionTypes.FETCH_DATA, (url) ->
     $.getJSON(url)
     .done((data) ->
       _.each(data, (emotion) ->
@@ -17,11 +17,11 @@ EmotionStore = ->
     )
   )
 
-  this.on('EMOTIONS_INIT', () ->
-    this.trigger('GET_DATA', emotions)
+  this.on(actionTypes.TAGS_INIT, () ->
+    this.trigger(actionTypes.FETCH_DATA_DONE, emotions)
   )
 
-  this.on('FILTER', (keyword) ->
+  this.on(actionTypes.SET_FILTER, (keyword) ->
     ret = []
     _.each(emotions, (emotion) ->
       match = false
@@ -32,21 +32,21 @@ EmotionStore = ->
         ret.push(emotion)
     )
     filters = ret
-    this.trigger('FILTER_DONE', filters)
+    this.trigger(actionTypes.GET_FILTER_RESULT, filters)
   )
 
-  this.on('SET_TARGET', (id) ->
+  this.on(actionTypes.SET_TARGET, (id) ->
     targetID = id
-    this.trigger('SET_TARGET_DONE')
+    this.trigger(actionTypes.SET_TARGET_DONE)
   )
 
-  this.on('SET_COMMAND', (command) ->
+  this.on(actionTypes.SET_COMMAND, (command) ->
     rets = if (_.size(filters) != 0) then filters else emotions
     _.each(rets, (ret) ->
       if (ret.command == command)
         activeCommand = ret
     )
-    this.trigger('SET_COMMAND_DONE', activeCommand)
+    this.trigger(actionTypes.SET_COMMAND_DONE, activeCommand)
   )
 
   return
