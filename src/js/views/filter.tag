@@ -9,11 +9,11 @@
   </div>
 
   <script type="coffeescript">
-    filterInput = (e) ->
+    @filterInput = (e) ->
       keyword = $(e.target).val()
       RiotControl.trigger(actionTypes.SET_FILTER, keyword)
 
-    filterTarget = (e) ->
+    @filterTarget = (e) ->
       targetID = $(e.target).val()
       RiotControl.trigger(actionTypes.SET_TARGET, targetID)
   </script>
