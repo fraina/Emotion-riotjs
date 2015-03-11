@@ -4,14 +4,15 @@
   </button>
 
   var self = this;
-  this.tags = [];
+
+  self.tags = [];
 
   $(document).on('click', 'button', function(e) {
     var command = ($(e.target).text()).trim();
     RiotControl.trigger(actionTypes.SET_COMMAND, command);
   })
 
-  this.on('mount', function() {
+  self.on('mount', function() {
     RiotControl.trigger(actionTypes.TAGS_INIT)
   })
 

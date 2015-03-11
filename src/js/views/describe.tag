@@ -2,11 +2,12 @@
   <h5>{ description }</h5>
 
   var self = this;
-  this.description = '';
-  this.currentCommand = {}
+
+  self.description = '';
+  self.currentCommand = {};
 
 
-  this.on('mount', function() {
+  self.on('mount', function() {
     RiotControl.trigger(actionTypes.DESCRIBE_INIT)
   })
 
