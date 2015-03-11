@@ -1,37 +1,38 @@
 <describe>
   <h5>{ description }</h5>
 
-  var self = this;
+  <script type="coffeescript">
+    self = this
 
-  self.description = '';
-  self.currentCommand = {};
+    self.description = ''
+    self.currentCommand = {}
 
 
-  self.on('mount', function() {
-    RiotControl.trigger(actionTypes.DESCRIBE_INIT)
-  })
+    self.on('mount', ->
+      RiotControl.trigger(actionTypes.DESCRIBE_INIT)
+    )
 
-  RiotControl.on(actionTypes.GET_RANDOM_COMMAND, function(randomCommand) {
-    self.currentCommand = randomCommand;
-    getCurrentDescription();
-    self.update();
-  })
+    RiotControl.on(actionTypes.GET_RANDOM_COMMAND, (randomCommand) ->
+      self.currentCommand = randomCommand
+      getCurrentDescription()
+      self.update()
+    )
 
-  RiotControl.on(actionTypes.SET_COMMAND_DONE, function(opts) {
-    self.currentCommand = opts[0];
-    getCurrentDescription(opts[1])
-    self.update();
-  })
+    RiotControl.on(actionTypes.SET_COMMAND_DONE, (opts) ->
+      self.currentCommand = opts[0]
+      getCurrentDescription(opts[1])
+      self.update()
+    )
 
-  RiotControl.on(actionTypes.SET_TARGET_DONE, function(targetID) {
-    getCurrentDescription(targetID)
-    self.update();
-  })
+    RiotControl.on(actionTypes.SET_TARGET_DONE, (targetID) ->
+      getCurrentDescription(targetID)
+      self.update()
+    )
 
-  getCurrentDescription = function(targetID) {
-    var noTargetStr = self.currentCommand.tarNone,
-        tarTargetStr = self.currentCommand.tarTarget;
-    self.description = (targetID && _.size(targetID) > 0) ? tarTargetStr.replace(/:target/, targetID) : noTargetStr;
-  }
+    getCurrentDescription = (targetID) ->
+      noTargetStr = self.currentCommand.tarNone
+      tarTargetStr = self.currentCommand.tarTarget
+      self.description = if (targetID && _.size(targetID) > 0) then tarTargetStr.replace(/:target/, targetID) else noTargetStr
+  </script>
 
 </describe>

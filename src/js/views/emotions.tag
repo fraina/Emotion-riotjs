@@ -3,27 +3,28 @@
     { command }
   </button>
 
-  var self = this;
+  <script type="coffeescript">
+    self = this
+    self.tags = []
 
-  self.tags = [];
+    $(document).on('click', 'button', (e) ->
+      command = ($(e.target).text()).trim()
+      RiotControl.trigger(actionTypes.SET_COMMAND, command)
+    )
 
-  $(document).on('click', 'button', function(e) {
-    var command = ($(e.target).text()).trim();
-    RiotControl.trigger(actionTypes.SET_COMMAND, command);
-  })
+    self.on('mount', () ->
+      RiotControl.trigger(actionTypes.TAGS_INIT)
+    )
 
-  self.on('mount', function() {
-    RiotControl.trigger(actionTypes.TAGS_INIT)
-  })
+    RiotControl.on(actionTypes.GET_TAGS_DATA, (data) ->
+      self.tags = data
+      self.update()
+    )
 
-  RiotControl.on(actionTypes.GET_TAGS_DATA, function(data) {
-    self.tags = data
-    self.update()
-  })
-
-  RiotControl.on(actionTypes.GET_FILTER_RESULT, function(result) {
-    self.tags = result
-    self.update()
-  })
+    RiotControl.on(actionTypes.GET_FILTER_RESULT, (result) ->
+      self.tags = result
+      self.update()
+    )
+  </script>
 
 </emotions>

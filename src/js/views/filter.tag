@@ -8,13 +8,13 @@
     <label for="target">input Target ID ...</label>
   </div>
 
-  filterInput(e) {
-    var keyword = $(e.target).val();
-    RiotControl.trigger(actionTypes.SET_FILTER, keyword)
-  }
+  <script type="coffeescript">
+    filterInput = (e) ->
+      keyword = $(e.target).val()
+      RiotControl.trigger(actionTypes.SET_FILTER, keyword)
 
-  filterTarget(e) {
-    var targetID = $(e.target).val();
-    RiotControl.trigger(actionTypes.SET_TARGET, targetID)
-  }
+    filterTarget = (e) ->
+      targetID = $(e.target).val()
+      RiotControl.trigger(actionTypes.SET_TARGET, targetID)
+  </script>
 </filter>
