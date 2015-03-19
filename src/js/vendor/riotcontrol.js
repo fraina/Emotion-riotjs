@@ -11,6 +11,7 @@ var RiotControl = {
     this._stores.forEach(function(el){
       el[api].apply(null, args);
     });
+    return this;
   };
 });
 

@@ -16,15 +16,15 @@
       RiotControl.trigger(actionTypes.TAGS_INIT)
     )
 
-    RiotControl.on(actionTypes.GET_TAGS_DATA, (data) ->
-      self.tags = data
-      self.update()
-    )
-
-    RiotControl.on(actionTypes.GET_FILTER_RESULT, (result) ->
-      self.tags = result
-      self.update()
-    )
+    RiotControl
+      .on(actionTypes.GET_TAGS_DATA, (data) ->
+        self.tags = data
+        self.update()
+      )
+      .on(actionTypes.GET_FILTER_RESULT, (result) ->
+        self.tags = result
+        self.update()
+      )
   </script>
 
 </emotions>

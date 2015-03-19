@@ -7,27 +7,25 @@
     self.description = ''
     self.currentCommand = {}
 
-
     self.on('mount', ->
       RiotControl.trigger(actionTypes.DESCRIBE_INIT)
     )
 
-    RiotControl.on(actionTypes.GET_RANDOM_COMMAND, (randomCommand) ->
-      self.currentCommand = randomCommand
-      getCurrentDescription()
-      self.update()
-    )
-
-    RiotControl.on(actionTypes.SET_COMMAND_DONE, (opts) ->
-      self.currentCommand = opts[0]
-      getCurrentDescription(opts[1])
-      self.update()
-    )
-
-    RiotControl.on(actionTypes.SET_TARGET_DONE, (targetID) ->
-      getCurrentDescription(targetID)
-      self.update()
-    )
+    RiotControl
+      .on(actionTypes.GET_RANDOM_COMMAND, (randomCommand) ->
+        self.currentCommand = randomCommand
+        getCurrentDescription()
+        self.update()
+      )
+      .on(actionTypes.SET_COMMAND_DONE, (opts) ->
+        self.currentCommand = opts[0]
+        getCurrentDescription(opts[1])
+        self.update()
+      )
+      .on(actionTypes.SET_TARGET_DONE, (targetID) ->
+        getCurrentDescription(targetID)
+        self.update()
+      )
 
     getCurrentDescription = (targetID) ->
       noTargetStr = self.currentCommand.tarNone
