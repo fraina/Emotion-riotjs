@@ -1,13 +1,13 @@
 <emotion>
   <div class="emotion-describe row">
-    <describe>
+    <describe></describe>
   </div>
   <div class="emotion-filter row">
     <form class="col s12 l8">
-      <filter>
+      <filter></filter>
     </form>
   </div>
   <div class="emotion-tags row">
-    <emotions>
+    <emotions></emotions>
   </div>
 </emotion>
