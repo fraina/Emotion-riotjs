@@ -10,27 +10,13 @@
 // -------------------------------------
 
 @import 'foundation/reset'
-@import 'foundation/helpers'
 @import 'foundation/helpers/materialDesignColor'
-@import 'foundation/config'
-@import 'foundation/base'
-
-// -------------------------------------
-//   Components
-// -------------------------------------
-
-@import 'components/bucket'
-@import 'components/card'
-@import 'components/cell'
-@import 'components/grid'
-@import 'components/row'
-@import 'components/well'
 
 // -------------------------------------
 //   Structures
 // -------------------------------------
 
-@import 'structures/example'
+@import 'structures/emotion'
 
 // -------------------------------------
 //   Vendor
@@ -40,22 +26,5 @@
 @import 'vendor/materialize.min'
 
 // -------------------------------------
-//   Foundation - Tools
-// -------------------------------------
-
-@import 'foundation/tools'
-
-// -------------------------------------
 //   Inbox
 // -------------------------------------
-
-// removing roboto
-html
-  font-family: GillSans, Calibri, Trebuchet, sans-serif
-
-// 因為懶所以塞 Inbox，好孩子不要學
-header.row
-  padding-bottom: $b-space
-  background: MDcolor(blue-grey, 100)
-  a
-    color: MDcolor(blue-grey, 200)

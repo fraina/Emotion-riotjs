@@ -30,7 +30,7 @@
     getCurrentDescription = (targetID) ->
       noTargetStr = self.currentCommand.tarNone
       tarTargetStr = self.currentCommand.tarTarget
-      self.description = if (targetID && _.size(targetID) > 0) then tarTargetStr.replace(/:target/, targetID) else noTargetStr
+      self.description = if (targetID && _.size(targetID) > 0) then tarTargetStr.replace(/:target/g, targetID) else noTargetStr
   </script>
 
 </describe>
