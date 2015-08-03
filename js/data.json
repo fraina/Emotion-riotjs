@@ -1,0 +1,1197 @@
+[
+  {
+    "command": "/absent",
+    "tarNone": "你看起來神情恍惚。",
+    "tarTarget": "你恍惚的看著:target。"
+  },
+  {
+    "command": "/agree",
+    "tarNone": "你表示認同。 You agree.",
+    "tarTarget": "你贊同:target的觀點。You agree with :target."
+  },
+  {
+    "command": "/amaze",
+    "tarNone": "你感到很驚奇! You are amazed!",
+    "tarTarget": ":target讓你感到很驚奇! You are amazed by :target."
+  },
+  {
+    "command": "/angry & /mad",
+    "tarNone": "你憤怒地揮起拳頭。 You are amazed by :target.",
+    "tarTarget": "你向:target憤怒地揮起拳頭。 You raise your fist in anger at :target."
+  },
+  {
+    "command": "/apologize & /sorry",
+    "tarNone": "你向大家表示道歉。對不起! You apologize to everyone. Sorry!",
+    "tarTarget": "你向:target表示道歉。對不起! You apologize to :target. Sorry!"
+  },
+  {
+    "command": "/applaud & /applause",
+    "tarNone": "你大聲喝彩。好! You applaud. Bravo!",
+    "tarTarget": "你向:target大聲喝彩。真棒! You applaud at :target. Bravo!"
+  },
+  {
+    "command": "/arm",
+    "tarNone": "你伸了個懶腰。",
+    "tarTarget": "你把手臂搭在:target的肩膀上。"
+  },
+  {
+    "command": "/attacktarget",
+    "tarNone": "你告訴所有人進攻某物。 You tell everyone to attack something.",
+    "tarTarget": "你要所有人進攻:target。 You tell everyone to attack :target."
+  },
+  {
+    "command": "/awe",
+    "tarNone": "你畏懼得四處張望。",
+    "tarTarget": "你畏懼得望著:target發愣。"
+  },
+  {
+    "command": "/backback",
+    "tarNone": "你翻遍了你的背包。",
+    "tarTarget": "你翻遍了你的背包。"
+  },
+  {
+    "command": "/badfeeling",
+    "tarNone": "你對這件事有著不好的預感…",
+    "tarTarget": "你對:target有著不好的預感。"
+  },
+  {
+    "command": "/bark",
+    "tarNone": "你仰天長嘯。嗚……! You bark. Woof woof!",
+    "tarTarget": "你對著:target吠叫。 You bark at :target"
+  },
+  {
+    "command": "/bashful",
+    "tarNone": "你非常害羞。 You are bashful.",
+    "tarTarget": "你太害羞了……因而無法引起:target的注意。 You are so bashful...too bashful to get :target's attention."
+  },
+  {
+    "command": "/beckon & /wave",
+    "tarNone": "你招手示意大家都過去。 You beckon everyone over to you.",
+    "tarTarget": "你招手示意:target過來。 You beckon :target over."
+  },
+  {
+    "command": "/beg",
+    "tarNone": "你向你周圍的人祈求。真可憐。 You beg everyone around you. How pathetic.",
+    "tarTarget": "你在祈求:target。好可憐啊。 You beg :target. How pathetic."
+  },
+  {
+    "command": "/belch & /burp",
+    "tarNone": "你打了個響亮的嗝。 You let out a loud belch.",
+    "tarTarget": "你很沒有禮貌得對著:target打了個嗝。 You burp rudely in :target's face. "
+  },
+  {
+    "command": "/bite",
+    "tarNone": "你四下張望，想找個人咬一口。 You look around for someone to bite.",
+    "tarTarget": "你咬了:target一口。啊!   You bite :target. Ouch!"
+  },
+  {
+    "command": "/blame",
+    "tarNone": "你為了發生的一切而自責不已。",
+    "tarTarget": "你把一切都怪到:target頭上。"
+  },
+  {
+    "command": "/blank",
+    "tarNone": "你茫然地盯著你的周圍看。",
+    "tarTarget": "你茫然地盯著:target看。"
+  },
+  {
+    "command": "/bleed & /blood",
+    "tarNone": "你的傷口滲出了鮮血。 Blood oozes from your wounds.",
+    "tarTarget": "你的傷口滲出了鮮血。 Blood oozes from your wounds."
+  },
+  {
+    "command": "/blink",
+    "tarNone": "你眨了眨眼。 You blink your eyes.",
+    "tarTarget": "你對:target眨了眨眼。 You blink at :target."
+  },
+  {
+    "command": "/blow & /kiss",
+    "tarNone": "你拋出一個飛吻。 You blow a kiss into the wind.",
+    "tarTarget": "你給了:target一個飛吻。 You blow a kiss to :target."
+  },
+  {
+    "command": "/blush",
+    "tarNone": "你臉紅了。 You blush.",
+    "tarTarget": "你對著:target臉紅了。 You blush at :target."
+  },
+  {
+    "command": "/boggle",
+    "tarNone": "你對這個狀況感到吃驚。 You boggle at the situation.",
+    "tarTarget": "你對:target感到吃驚。 You boggle at :target."
+  },
+  {
+    "command": "/bonk & /doh",
+    "tarNone": "你重重的敲了一下你的腦袋，發出「咚」的一聲。 You bonk yourself on the noggin. Doh!",
+    "tarTarget": "你重重的敲了一下:target的腦袋，發出「咚」的一聲。 You bonk :target: on the noggin. Doh!"
+  },
+  {
+    "command": "/bored",
+    "tarNone": "你已經對這種苦差事不厭其煩了! You are overcome with boredom. Oh the drudgery!",
+    "tarTarget": "你對:target感到十分厭煩。 You are terribly bored with :target."
+  },
+  {
+    "command": "/bounce",
+    "tarNone": "你正在上下跳躍。 You bounce up and down.",
+    "tarTarget": "你在:target面前上下跳躍。 You bounce up and down in front of :target."
+  },
+  {
+    "command": "/bow",
+    "tarNone": "你優雅的鞠了躬。 You bow down graciously.",
+    "tarTarget": "你向:target鞠躬。 You bow before :target."
+  },
+  {
+    "command": "/brandish",
+    "tarNone": "你兇猛地揮舞著你的武器。 You brandish your weapon fiercely.",
+    "tarTarget": "你對著:target兇猛地揮舞著你的武器。 You brandish your weapon fiercely at :target."
+  },
+  {
+    "command": "/brb",
+    "tarNone": "You let everyone know you'll be right back",
+    "tarTarget": "You let :target know you'll be right back."
+  },
+  {
+    "command": "/bravo",
+    "tarNone": "你大聲喝彩。好！ You applaud. Bravo!",
+    "tarTarget": "你向:target大聲喝彩。真棒！ You applaud at :target. Bravo!"
+  },
+  {
+    "command": "/breath",
+    "tarNone": "你做一次深呼吸。",
+    "tarTarget": "你要:target做一次深呼吸。"
+  },
+  {
+    "command": "/bye & /farewell & /goodbye",
+    "tarNone": "你向大家揮手告別。再見！ You wave goodbye to everyone. Farewell!",
+    "tarTarget": "你向:target揮手告別。再見！ You wave goodbye to :target. Farewell!"
+  },
+  {
+    "command": "/cackle",
+    "tarNone": "你見此情景咯咯的笑個不停。 You cackle maniacally at the situation.",
+    "tarTarget": "你對著:target咯咯的笑個不停。 You cackle maniacally at :target."
+  },
+  {
+    "command": "/calm",
+    "tarNone": "你保持冷靜。 You remain calm.",
+    "tarTarget": "你試圖讓:target冷靜下來。 You try to calm :target down."
+  },
+  {
+    "command": "/cat & /catty & /scratch",
+    "tarNone": "你在幫你自己搔癢。啊，舒服多了！ You scratch yourself. Ah, much better!",
+    "tarTarget": "你在幫:target搔癢。好可愛啊！ You scratch :target. How catty!"
+  },
+  {
+    "command": "/challenge",
+    "tarNone": "你對所有人發出決鬥要求。放馬過來！",
+    "tarTarget": "你向:target發出決鬥要求。"
+  },
+  {
+    "command": "/charge",
+    "tarNone": "你開始衝鋒。 You start to charge.",
+    "tarTarget": "你開始衝鋒。 You start to charge."
+  },
+  {
+    "command": "/charm",
+    "tarNone": "你散發出魅力。",
+    "tarTarget": "你認為:target很有魅力。"
+  },
+  {
+    "command": "/cheer",
+    "tarNone": "你大聲歡呼。 You cheer!",
+    "tarTarget": "你為:target歡呼。 You cheer at :target."
+  },
+  {
+    "command": "/chew & /eat & /feast",
+    "tarNone": "你開始吃東西。 You begin to eat.",
+    "tarTarget": "你在:target面前開始吃東西。 You begin to eat in front of :target."
+  },
+  {
+    "command": "/chicken & /flap & /strut",
+    "tarNone": "你像母雞一樣搧動著雙臂繞著圈子咯咯咯的叫！ With arms flapping, you strut around. Cluck, Cluck, Chicken!",
+    "tarTarget": "你搧動著雙臂繞著:target咯咯咯地叫！ With arms flapping, you strut around :target. Cluck, Cluck, Chicken!"
+  },
+  {
+    "command": "/chuckle",
+    "tarNone": "你痴痴地笑著。 You let out a hearty chuckle.",
+    "tarTarget": "你對著:target痴痴地笑。 You chuckle at :target."
+  },
+  {
+    "command": "/chug",
+    "tarNone": "你豪飲了你的飲料。",
+    "tarTarget": "你向:target勸酒。乾杯！乾杯！乾杯！"
+  },
+  {
+    "command": "/clap",
+    "tarNone": "你激動地鼓掌。 You clap excitedly.",
+    "tarTarget": "你激動地為:target鼓掌。 You clap excitedly for :target."
+  },
+  {
+    "command": "/cold",
+    "tarNone": "你告訴大家你感到很冷。 You let everyone know that you are cold.",
+    "tarTarget": "你告訴:target你感到很冷。 You let :target know that you are cold."
+  },
+  {
+    "command": "/comfort",
+    "tarNone": "你需要安慰。 You need to be comforted.",
+    "tarTarget": "你安慰:target。 You comfort :target."
+  },
+  {
+    "command": "/commend",
+    "tarNone": "你讚揚大家的工作完成得很出色。 You commend everyone on a job well done.",
+    "tarTarget": "你讚揚:target的工作完成得很出色。 You commend :target on a job well done."
+  },
+  {
+    "command": "/confused",
+    "tarNone": "你覺得無助困惑。 You are hopelessly confused.",
+    "tarTarget": "你疑惑地看著:target。 You look at :target with a confused look."
+  },
+  {
+    "command": "/cong & /congrats & /congratulate",
+    "tarNone": "你向你周圍的所有人表示祝賀。 You congratulate everyone around you.",
+    "tarTarget": "你向:target表示祝賀。 You congratulate :target."
+  },
+  {
+    "command": "/cough",
+    "tarNone": "你乾咳了幾下。 You let out a hacking cough.",
+    "tarTarget": "你對著:target咳嗽了幾下。 You cough at :target."
+  },
+  {
+    "command": "/coverears",
+    "tarNone": "你摀住了耳朵。",
+    "tarTarget": "你摀住了:target的耳朵。"
+  },
+  {
+    "command": "/cower & /fear",
+    "tarNone": "你害怕地退縮了。 You cower in fear.",
+    "tarTarget": "你一看到:target就害怕地退縮了。 You cower in fear at the sight of :target."
+  },
+  {
+    "command": "/crack & /knuckles",
+    "tarNone": "你把手上的關節捏得咯咯作聲。 You crack your knuckles.",
+    "tarTarget": "你把手上的關節捏得咯咯作聲，直直地望著:target。 You crack your knuckles while staring at :target."
+  },
+  {
+    "command": "/cringe",
+    "tarNone": "你因為恐懼而退縮了。 You cringe in fear.",
+    "tarTarget": "你在:target的面前退縮了。 You cringe away from :target."
+  },
+  {
+    "command": "/crossarms",
+    "tarNone": "你交叉著雙臂。",
+    "tarTarget": "你交叉著雙臂盯著:target看。哼！"
+  },
+  {
+    "command": "/cry & /sob & /weep",
+    "tarNone": "你哭了。 You cry.",
+    "tarTarget": "你趴在:target的肩膀上泣不成聲。 You cry on :target's shoulder."
+  },
+  {
+    "command": "/cuddle & /spoon",
+    "tarNone": "你想要被擁抱一下。 You need to be cuddled.",
+    "tarTarget": "你倚靠著:target睡去。 You cuddle up against :target."
+  },
+  {
+    "command": "/curious",
+    "tarNone": "你對周圍的人流露出好奇心。 You express your curiosity to those around you.",
+    "tarTarget": "你對於:target能勝任什麼工作很感興趣。 You are curious what :target is up to."
+  },
+  {
+    "command": "/curtsey",
+    "tarNone": "你行了個屈膝禮。 You curtsey.",
+    "tarTarget": "你向:target行屈膝禮。 You curtsey before :target."
+  },
+  {
+    "command": "/dance",
+    "tarNone": "你開始跳舞。 You burst into dance.",
+    "tarTarget": "你在和:target跳舞。 You dance with :target."
+  },
+  {
+    "command": "/ding",
+    "tarNone": "你升級啦，叮！ You reached a new level. DING!",
+    "tarTarget": "你恭喜:target升級了，叮！ You congratulate :target on a new level. DING!"
+  },
+  {
+    "command": "/disagree",
+    "tarNone": "你不同意。",
+    "tarTarget": "你不同意:target。"
+  },
+  {
+    "command": "/disappointed & /disappointment & /frown",
+    "tarNone": "你皺著眉頭。 You frown.",
+    "tarTarget": "你失望地對:target皺起了眉頭。 You frown with disappointment at :target."
+  },
+  {
+    "command": "/doom & /threat & /threaten & /wrath",
+    "tarNone": "你以厄運的懲罰威脅大家。 You threaten everyone with the wrath of doom.",
+    "tarTarget": "你以厄運的懲罰威脅:target。 You threaten :target with the wrath of doom."
+  },
+  {
+    "command": "/doubt",
+    "tarNone": "你懷疑情況是否會對你有利。",
+    "tarTarget": "你懷疑:target。"
+  },
+  {
+    "command": "/drink & /shindig",
+    "tarNone": "你舉起酒杯，然後一飲而盡。乾杯！ You raise a drink in the air before chugging it down. Cheers!",
+    "tarTarget": "你向:target舉杯。乾杯！ You raise a drink to :target. Cheers!"
+  },
+  {
+    "command": "/drool",
+    "tarNone": "一條長長的口水掛在你的嘴邊。 A tendril of drool runs down your lip.",
+    "tarTarget": "你看著:target流出了口水。 You look at :target and begin to drool."
+  },
+  {
+    "command": "/duck",
+    "tarNone": "你蹲下掩護自已。 You duck for cover.",
+    "tarTarget": "你躲在:target後面。 You duck behind :target."
+  },
+  {
+    "command": "/eat & /feast",
+    "tarNone": "You begin to eat.",
+    "tarTarget": "You begin to eat in front of :target."
+  },
+  {
+    "command": "/encourage",
+    "tarNone": "你鼓勵周遭所有的人。你們行的",
+    "tarTarget": "你們行的! 你鼓勵:target。"
+  },
+  {
+    "command": "/enemy",
+    "tarNone": "你警告所有人敵人就在附近。",
+    "tarTarget": "你警告:target敵人就在附近。"
+  },
+  {
+    "command": "/excited",
+    "tarNone": "你正和大家興高采烈地交談著。 You talk excitedly with everyone.",
+    "tarTarget": "你正和:target興高采烈地交談著。 You talk excitedly with :target."
+  },
+  {
+    "command": "/eye",
+    "tarNone": "你瞇起了眼睛。 You cross your eyes.",
+    "tarTarget": "你上下打量了一下:target。 You eye :target up and down."
+  },
+  {
+    "command": "/eyebrow",
+    "tarNone": "你好奇地挑了一下你的眉毛。",
+    "tarTarget": "你對:target好奇地挑了一下你的眉毛。"
+  },
+  {
+    "command": "/facepalm",
+    "tarNone": "你用手掌遮著臉。 You cover your face with your palm.",
+    "tarTarget": "你用手掌遮著臉偷看:target。 You look over at :target and cover your face with your palm."
+  },
+  {
+    "command": "/faint",
+    "tarNone": "你昏倒了。",
+    "tarTarget": "你在:target的面前昏倒了。"
+  },
+  {
+    "command": "/fart",
+    "tarNone": "你放了一個很響的屁。嗯…什麼東西這麼臭？ You fart loudly. Whew...what stinks?",
+    "tarTarget": "你靠近:target然後放了一個很響的屁。 You brush up against :target and fart loudly."
+  },
+  {
+    "command": "/fidget & /impatient",
+    "tarNone": "你顯得坐立不安。 You fidget.",
+    "tarTarget": "你等:target等得坐立不安。 You fidget impatiently while waiting for :target."
+  },
+  {
+    "command": "/flee",
+    "tarNone": "你叫所有人快跑！ You yell for everyone to flee!",
+    "tarTarget": "你叫所有人快跑！ You yell for :target to flee!"
+  },
+  {
+    "command": "/flex & /strong",
+    "tarNone": "你正在展示你的肌肉。哇，好壯啊！ You flex your muscles. Oooooh so strong!",
+    "tarTarget": "你向:target展示你的肌肉。哇，好強啊！ You flex at :target. Oooooh so strong!"
+  },
+  {
+    "command": "/flirt",
+    "tarNone": "你調情。You flirt.",
+    "tarTarget": "你對:target調情。 You flirt with :target."
+  },
+  {
+    "command": "/flop",
+    "tarNone": "你無助地走來走去。 You flop about helplessly.",
+    "tarTarget": "你無助地在:target旁邊走來走去。 You flop about helplessly around :target."
+  },
+  {
+    "command": "/followme",
+    "tarNone": "你示意所有人跟著。 You motion for everyone to follow.",
+    "tarTarget": "你示意:target跟著。 You motion for :target to follow."
+  },
+  {
+    "command": "/food",
+    "tarNone": "你感到很餓！ You are hungry!",
+    "tarTarget": "你感到很餓。也許在:target那裡可以找到一些食物。 You are hungry. Maybe :target has some food..."
+  },
+  {
+    "command": "/gasp",
+    "tarNone": "你顯得氣喘吁吁。 You gasp.",
+    "tarTarget": "你氣喘吁吁地和:target說話。 You gasp at :target."
+  },
+  {
+    "command": "/gaze",
+    "tarNone": "你凝視著遠方。 You gaze off into the distance.",
+    "tarTarget": "你殷切地注視著:target。 You gaze eagerly at :target."
+  },
+  {
+    "command": "/giggle",
+    "tarNone": "你在咯咯地傻笑。 You giggle.",
+    "tarTarget": "你對著:target咯咯地傻笑。 You giggle at :target."
+  },
+  {
+    "command": "/glad & /happy & /yay",
+    "tarNone": "你顯得非常高興！ You are filled with happiness!",
+    "tarTarget": "你感到和:target在一起很開心！ You are very happy with :target!"
+  },
+  {
+    "command": "/glare",
+    "tarNone": "你生氣地瞪大了眼睛。 You glare angrily.",
+    "tarTarget": "你生氣地對著:target瞪大了眼睛。 You glare angrily at :target."
+  },
+  {
+    "command": "/gloat",
+    "tarNone": "你幸災樂禍於大家的不幸。 You gloat over everyone's misfortune.",
+    "tarTarget": "你幸災樂禍於:target的不幸。 You gloat over :target's misfortune."
+  },
+  {
+    "command": "/glower",
+    "tarNone": "你怒視著周遭所有的人。",
+    "tarTarget": "你怒視著:target。"
+  },
+  {
+    "command": "/go",
+    "tarNone": "你告訴大家該走了。",
+    "tarTarget": "你告訴:target該走了。"
+  },
+  {
+    "command": "/going",
+    "tarNone": "你得走了。",
+    "tarTarget": "你告訴:target你得走了。"
+  },
+  {
+    "command": "/golfclap",
+    "tarNone": "你心不在焉地鼓掌，很明顯不太在意。 You clap half heartedly, clearly unimpressed.",
+    "tarTarget": "你為:target鼓掌，但很明顯不太在意。 You clap for :target, clearly unimpressed."
+  },
+  {
+    "command": "/greet & /greetings",
+    "tarNone": "你熱情地問候大家。 You greet everyone warmly.",
+    "tarTarget": "你熱情問候:target。 You greet :target warmly."
+  },
+  {
+    "command": "/grin & /wicked & /wickedly",
+    "tarNone": "你邪惡地笑了笑。 You grin wickedly.",
+    "tarTarget": "你邪惡地對:target笑了笑。 You grin wickedly at :target."
+  },
+  {
+    "command": "/groan & /moan",
+    "tarNone": "你開始呻吟。 You begin to groan.",
+    "tarTarget": "你對著:target呻吟。 You look at :target and groan."
+  },
+  {
+    "command": "/grovel & /peon",
+    "tarNone": "你卑微地跪在地上, 沉溺於奉承。 You grovel on the ground, wallowing in subservience.",
+    "tarTarget": "你在:target面前卑躬屈膝，好像一個屈從的苦工一樣。 You grovel before :target like a subservient peon."
+  },
+  {
+    "command": "/growl",
+    "tarNone": "你在高聲怒吼。 You growl menacingly.",
+    "tarTarget": "你對著:target高聲怒吼。 You growl menacingly at :target."
+  },
+  {
+    "command": "/guffaw",
+    "tarNone": "你放聲大笑。 You let out a boisterous guffaw!",
+    "tarTarget": "你看了:target一眼然後哈哈大笑。 You take one look at :target and let out a guffaw!"
+  },
+  {
+    "command": "/hail",
+    "tarNone": "你和周圍所有的人打招呼。 You hail those around you.",
+    "tarTarget": "你和:target打招呼。 You hail :target."
+  },
+  {
+    "command": "/headache",
+    "tarNone": "你頭疼不已。",
+    "tarTarget": "你因為:target的白痴舉動頭疼不已。"
+  },
+  {
+    "command": "/healme",
+    "tarNone": "你大聲請求治療！ You call out for healing!",
+    "tarTarget": "你大聲請求治療！ You call out for healing!"
+  },
+  {
+    "command": "/hello & /hi",
+    "tarNone": "你真心地向大家表示問候。 You greet everyone with a hearty hello!",
+    "tarTarget": "你真心地向:target表示問候。 You greet :target with a hearty hello!"
+  },
+  {
+    "command": "/helpme",
+    "tarNone": "你大聲呼救！ You cry out for help!",
+    "tarTarget": "你大聲呼救！ You cry out for help!"
+  },
+  {
+    "command": "/hiccup",
+    "tarNone": "你大聲的打嗝。",
+    "tarTarget": "你大聲的打嗝。"
+  },
+  {
+    "command": "/highfive",
+    "tarNone": "你將雙手高舉準備擊掌。 You put up your hand for a high five.",
+    "tarTarget": "你和:target擊掌！ You give :target a high five!"
+  },
+  {
+    "command": "/hiss",
+    "tarNone": "你對周遭所有人發出噓聲。",
+    "tarTarget": "你對:target發出噓聲。"
+  },
+  {
+    "command": "/holdhand",
+    "tarNone": "你希望有人能牽著你的手。",
+    "tarTarget": "你牽起了:target的手。"
+  },
+  {
+    "command": "/hug",
+    "tarNone": "你需要一個擁抱！ You need a hug!",
+    "tarTarget": "你擁抱了:target。 You hug :target."
+  },
+  {
+    "command": "/hungry & /pizza",
+    "tarNone": "你感到很餓！ You are hungry!",
+    "tarTarget": "你感到很餓。也許在:target那裡可以找到一些食物。 You are hungry. Maybe :target has some food..."
+  },
+  {
+    "command": "/hurry",
+    "tarNone": "你試著趕上速度。",
+    "tarTarget": "你催促:target動作快一點。"
+  },
+  {
+    "command": "/idea",
+    "tarNone": "你有個好主意！",
+    "tarTarget": "你有個好主意！"
+  },
+  {
+    "command": "/incoming",
+    "tarNone": "你大叫敵人來了！ You warn everyone of incoming enemies!",
+    "tarTarget": "你大叫敵人來了！ You point out :target as an incoming enemy!"
+  },
+  {
+    "command": "/insult",
+    "tarNone": "你覺得你身邊的人都是沒有教養的傢伙。 You think everyone around you is a son of a motherless ogre.",
+    "tarTarget": "你認為:target是個沒教養的傢伙。 You think :target is the son of a motherless ogre."
+  },
+  {
+    "command": "/introduce",
+    "tarNone": "你向大家介紹你自己。 You introduce yourself to everyone.",
+    "tarTarget": "你向:target作了一番自我介紹。 You introduce yourself to :target."
+  },
+  {
+    "command": "/jealous",
+    "tarNone": "你嫉妒周遭所有的人。",
+    "tarTarget": "你嫉妒:target。"
+  },
+  {
+    "command": "/jk",
+    "tarNone": "你只是在開玩笑。 You were just kidding!",
+    "tarTarget": "你告訴:target你只是在開玩笑。 You let :target know that you were just kidding!"
+  },
+  {
+    "command": "/kneel",
+    "tarNone": "你跪了下來。 You kneel down.",
+    "tarTarget": "你在:target面前跪下。 You kneel before :target."
+  },
+  {
+    "command": "/laugh & /lol",
+    "tarNone": "你大笑。 You laugh.",
+    "tarTarget": "你在嘲笑:target。 You laugh at :target."
+  },
+  {
+    "command": "/lavish & /praise",
+    "tarNone": "你讚美光明的力量。 You praise the Light.",
+    "tarTarget": "你對於:target大加讚賞。 You lavish praise upon :target."
+  },
+  {
+    "command": "/lay & /laydown & /lie & /liedown",
+    "tarNone": "你躺了下來。 You lie down.",
+    "tarTarget": "你在:target面前躺下。 You lie down before :target."
+  },
+  {
+    "command": "/lick",
+    "tarNone": "你舔了舔嘴唇。 You lick your lips.",
+    "tarTarget": "你舔了舔:target。 You lick :target."
+  },
+  {
+    "command": "/listen",
+    "tarNone": "你正在仔細地聆聽！ You are listening!",
+    "tarTarget": "你認真地聽:target說話。 You listen intently to :target."
+  },
+  {
+    "command": "/look",
+    "tarNone": "你看著四周。",
+    "tarTarget": "你看著:target。"
+  },
+  {
+    "command": "/lost",
+    "tarNone": "你徹底地失敗了。 You are hopelessly lost.",
+    "tarTarget": "你告訴:target你已經徹底失敗了。 You want :target to know that you are hopelessly lost."
+  },
+  {
+    "command": "/love",
+    "tarNone": "你感受到了深深的愛意。 You feel the love.",
+    "tarTarget": "你愛:target。 You love :target."
+  },
+  {
+    "command": "/luck",
+    "tarNone": "你祝所有人好運。",
+    "tarTarget": "你祝:target好運。"
+  },
+  {
+    "command": "/map",
+    "tarNone": "你攤開了地圖。",
+    "tarTarget": "你攤開了地圖。"
+  },
+  {
+    "command": "/massage",
+    "tarNone": "你需要按摩一下！ You need a massage!",
+    "tarTarget": "你幫:target按摩肩膀。 You massage :target's shoulders."
+  },
+  {
+    "command": "/mercy",
+    "tarNone": "你求饒。",
+    "tarTarget": "你求:target饒命。"
+  },
+  {
+    "command": "/mock",
+    "tarNone": "你看破紅塵，覺得一切都無所謂了。 You mock life and all it stands for.",
+    "tarTarget": "你嘲笑:target的愚蠢。 You mock the foolishness of :target."
+  },
+  {
+    "command": "/moo",
+    "tarNone": "哞~~~ Mooooooooooo.",
+    "tarTarget": "你對:target發出牛叫聲。哞~~~ You moo at :target. Mooooooooooo."
+  },
+  {
+    "command": "/moon",
+    "tarNone": "你把屁股對著大家。 You drop your trousers and moon everyone.",
+    "tarTarget": "你把屁股對著:target。 You drop your trousers and moon :target."
+  },
+  {
+    "command": "/mourn",
+    "tarNone": "你深深的陷入對於死者的哀思中。 In quiet contemplation, you mourn the loss of the dead.",
+    "tarTarget": "你深深的陷入對於:target之死的哀思中。 In quiet contemplation, you mourn the death of :target."
+  },
+  {
+    "command": "/mutter",
+    "tarNone": "你生氣得對自己抱怨。哼！",
+    "tarTarget": "你生氣的對:target抱怨。哼！"
+  },
+  {
+    "command": "/nervous",
+    "tarNone": "你緊張得四處張望。",
+    "tarTarget": "你緊張得看著:target。"
+  },
+  {
+    "command": "/no",
+    "tarNone": "你斬釘截鐵地說了個不字。 You clearly state, NO.",
+    "tarTarget": "你堅決地對:target說不。不能發生。 You tell :target NO. Not going to happen."
+  },
+  {
+    "command": "/nod & /yes",
+    "tarNone": "你點了點頭。 You nod.",
+    "tarTarget": "你對:target點了點頭。 You nod at :target."
+  },
+  {
+    "command": "/nosepick & /pick",
+    "tarNone": "你無聊地挖鼻孔來打發時間。 With a finger deep in one nostril, you pass the time.",
+    "tarTarget": "你挖了挖鼻孔，把手指伸到:target面前。 You pick your nose and show it to :target."
+  },
+  {
+    "command": "/object",
+    "tarNone": "你反對！",
+    "tarTarget": "你反對:target的意見。"
+  },
+  {
+    "command": "/offer",
+    "tarNone": "你想要做出提議。",
+    "tarTarget": "你試著對:target提出一件難以拒絕的提議。"
+  },
+  {
+    "command": "/oom",
+    "tarNone": "你宣佈你的法力不足！ You announce that you have low mana!",
+    "tarTarget": "你宣佈你的法力不足！ You announce that you have low mana!"
+  },
+  {
+    "command": "/openfire",
+    "tarNone": "你命令開火。 You give the order to open fire.",
+    "tarTarget": "你命令開火。 You give the order to open fire."
+  },
+  {
+    "command": "/panic",
+    "tarNone": "你驚恐地跑來跑去。 You run around in a frenzied state of panic.",
+    "tarTarget": "你看了一眼:target，然後大驚失色。 You take one look at :target and panic."
+  },
+  {
+    "command": "/pat",
+    "tarNone": "你需要一些安慰。 You need a pat.",
+    "tarTarget": "你輕輕拍了拍 :target。 You gently pat :target."
+  },
+  {
+    "command": "/peer",
+    "tarNone": "你仔細地打量了一下四周。 You peer around, searchingly.",
+    "tarTarget": "你仔細地打量了一下:target。 You peer at :target searchingly."
+  },
+  {
+    "command": "/pest & /shoo",
+    "tarNone": "你發出噓聲讓那些討厭的傢伙走開。 You shoo the measly pests away.",
+    "tarTarget": "你噓走了:target。走開，討厭的傢伙！ You shoo :target away. Be gone pest!"
+  },
+  {
+    "command": "/pet",
+    "tarNone": "你需要被撫摸。",
+    "tarTarget": "你撫摸:target。"
+  },
+  {
+    "command": "/pinch",
+    "tarNone": "你捏了你自己一把。",
+    "tarTarget": "你捏了:target一把。"
+  },
+  {
+    "command": "/pity",
+    "tarNone": "你對你周圍的人表示同情。 You pity those around you.",
+    "tarTarget": "你輕蔑地看著:target這個可憐的傢伙。 You look down upon :target with pity."
+  },
+  {
+    "command": "/plead",
+    "tarNone": "你跪了下來，絕望地懇求著。 You drop to your knees and plead in desperation.",
+    "tarTarget": "你向:target懇求。 You plead with :target."
+  },
+  {
+    "command": "/point",
+    "tarNone": "你指向遠方。 You point over yonder.",
+    "tarTarget": "你指著:target。 You point at :target."
+  },
+  {
+    "command": "/poke",
+    "tarNone": "你戳了戳你的肚子然後咯咯地傻笑。 You poke your belly and giggle.",
+    "tarTarget": "你戳了戳:target說:「嗨!」 You poke :target. Hey!"
+  },
+  {
+    "command": "/ponder",
+    "tarNone": "你仔細斟酌著當前的狀況。 You ponder the situation.",
+    "tarTarget": "你對:target的行為認真的思考著。 You ponder :target's actions."
+  },
+  {
+    "command": "/pounce",
+    "tarNone": "你從暗處撲了出來。 You pounce out from the shadows.",
+    "tarTarget": "你向著:target撲了過去。 You pounce on top of :target."
+  },
+  {
+    "command": "/pout",
+    "tarNone": "你對周遭所有的人噘嘴巴。",
+    "tarTarget": "你對著:target噘嘴巴。"
+  },
+  {
+    "command": "/pray",
+    "tarNone": "你虔誠地向神祈禱。 You pray to the Gods.",
+    "tarTarget": "你虔誠地為:target祈禱。 You say a prayer for :target."
+  },
+  {
+    "command": "/proud",
+    "tarNone": "你對自己感到驕傲。",
+    "tarTarget": "你對:target感到驕傲。"
+  },
+  {
+    "command": "/pulse",
+    "tarNone": "你替自己量了脈搏。",
+    "tarTarget": "你替:target量了脈搏。噢不！"
+  },
+  {
+    "command": "/punch",
+    "tarNone": "你搥了自己一拳。",
+    "tarTarget": "你搥了:target的肩膀一拳。"
+  },
+  {
+    "command": "/purr",
+    "tarNone": "你像貓一樣發出嗚嗚聲。 You purr like a kitten.",
+    "tarTarget": "你對著:target發出嗚嗚聲。 You purr at :target."
+  },
+  {
+    "command": "/puzzled",
+    "tarNone": "你被搞糊塗了。這到底是怎麼一回事啊？ You are puzzled. What's going on here?",
+    "tarTarget": "你被:target搞糊塗了。 You are puzzled by :target."
+  },
+  {
+    "command": "/question",
+    "tarNone": "你想要知道生活的意義。 You want to know the meaning of life.",
+    "tarTarget": "你向:target提問。 You question :target."
+  },
+  {
+    "command": "/raise & /volunteer",
+    "tarNone": "你舉起了你的手。 You raise your hand in the air.",
+    "tarTarget": "你看著:target，舉起了你的手。 You look at :target and raise your hand."
+  },
+  {
+    "command": "/rasp & /rude",
+    "tarNone": "你做了個粗魯的手勢。 You make a rude gesture.",
+    "tarTarget": "你對:target做了個粗魯的手勢。 You make a rude gesture at :target."
+  },
+  {
+    "command": "/regret",
+    "tarNone": "你滿是悔意。",
+    "tarTarget": "你認為:target會後悔的。"
+  },
+  {
+    "command": "/revenge",
+    "tarNone": "你誓言要完成復仇。",
+    "tarTarget": "你誓言要向:target復仇。"
+  },
+  {
+    "command": "/rdy & /ready",
+    "tarNone": "你告訴大家你已經準備好了！ You let everyone know that you are ready!",
+    "tarTarget": "你告訴:target你已經準備好了。 You let :target know that you are ready!"
+  },
+  {
+    "command": "/rear & /shake",
+    "tarNone": "你扭了扭屁股。 You shake your rear.",
+    "tarTarget": "你對著:target扭了扭屁股。 You shake your rear at :target."
+  },
+  {
+    "command": "/roar",
+    "tarNone": "你發出野獸般的狂吼。好兇啊！ You roar with bestial vigor. So fierce!",
+    "tarTarget": "你對著:target發出野獸般的狂吼。好可怕啊！ You roar with bestial vigor at :target. So fierce!"
+  },
+  {
+    "command": "/rofl",
+    "tarNone": "你笑翻在地。 You roll on the floor laughing.",
+    "tarTarget": "你對著:target笑翻在地。 You roll on the floor laughing at :target."
+  },
+  {
+    "command": "/rolleyes",
+    "tarNone": "你的眼珠骨碌碌得轉。 You roll you eyes.",
+    "tarTarget": "你的眼珠對著:target骨碌碌得轉。 You roll your eyes at :target."
+  },
+  {
+    "command": "/ruffle",
+    "tarNone": "你撥亂了自己的頭髮。",
+    "tarTarget": "你撥亂了:target的頭髮。"
+  },
+  {
+    "command": "/sad",
+    "tarNone": "你看起來垂頭喪氣。",
+    "tarTarget": "你看起來垂頭喪氣。"
+  },
+  {
+    "command": "/salute",
+    "tarNone": "你立正敬禮。 You stand at attention and salute.",
+    "tarTarget": "你滿懷敬意地向:target致敬。 You salute :target with respect."
+  },
+  {
+    "command": "/search",
+    "tarNone": "你正搜尋著什麼。",
+    "tarTarget": "你在:target身上搜尋著什麼。"
+  },
+  {
+    "command": "/scared",
+    "tarNone": "你看起來十分驚恐不安。 You are scared!",
+    "tarTarget": "你非常害怕:target。 You are scared of :target."
+  },
+  {
+    "command": "/scoff",
+    "tarNone": "你嘲弄。",
+    "tarTarget": "你嘲弄:target。"
+  },
+  {
+    "command": "/scold",
+    "tarNone": "你責備自己。",
+    "tarTarget": "你責備:target。"
+  },
+  {
+    "command": "/scowl",
+    "tarNone": "你表現出不悅。",
+    "tarTarget": "你對:target大感不悅。"
+  },
+  {
+    "command": "/sexy",
+    "tarNone": "你的裝扮實在是太有誘惑力了……讓人怦然心動。 You're too sexy for your tunic...so sexy it hurts.",
+    "tarTarget": "你覺得:target魅力十足。 You think :target is a sexy devil."
+  },
+  {
+    "command": "/shakefist",
+    "tarNone": "你揮舞著拳頭。",
+    "tarTarget": "你對著:target揮舞著拳頭。"
+  },
+  {
+    "command": "/shifty",
+    "tarNone": "你的眼神可疑的四處張望。",
+    "tarTarget": "你奸詐的看著:target。"
+  },
+  {
+    "command": "/shimmy",
+    "tarNone": "你在眾人面前舞動。 You shimmy before the masses.",
+    "tarTarget": "你在:target面前舞動。 You shimmy before :target."
+  },
+  {
+    "command": "/shiver",
+    "tarNone": "你冷得不斷顫抖。 You shiver in your boots. Chilling!",
+    "tarTarget": "你倚靠著:target冷得不斷顫抖。 You shiver beside :target. Chilling!"
+  },
+  {
+    "command": "/shrug",
+    "tarNone": "你聳了聳肩說:「天知道。」 You shrug. Who knows?",
+    "tarTarget": "你對著:target聳了聳肩說:「天知道。」 You shrug at :target. Who knows?"
+  },
+  {
+    "command": "/shy",
+    "tarNone": "你顯得十分害羞！ You smile shyly.",
+    "tarTarget": "你在:target面前感到很害羞。 You smile shyly at :target."
+  },
+  {
+    "command": "/shudder",
+    "tarNone": "你渾身發抖。",
+    "tarTarget": "你因為見到了:target而渾身發抖。"
+  },
+  {
+    "command": "/sigh",
+    "tarNone": "你長長地嘆了一口氣。",
+    "tarTarget": "你對著:target嘆了口氣。"
+  },
+  {
+    "command": "/signal",
+    "tarNone": "你在打暗號。",
+    "tarTarget": "你對:target打暗號。"
+  },
+  {
+    "command": "/silence",
+    "tarNone": "你要大家安靜。噓~~！",
+    "tarTarget": "你要:target安靜。噓~~！"
+  },
+  {
+    "command": "/silly",
+    "tarNone": "你講了一個笑話。",
+    "tarTarget": "你給:target講了一個笑話。"
+  },
+  {
+    "command": "/sing",
+    "tarNone": "你突然唱起了歌來。",
+    "tarTarget": "你對著:target唱情歌。"
+  },
+  {
+    "command": "/slap",
+    "tarNone": "你賞了自己一個耳光，啊！",
+    "tarTarget": "你賞了:target一個耳光，啊！"
+  },
+  {
+    "command": "/sleep",
+    "tarNone": "你進入了夢鄉。Zzzzzzz… You fall asleep. Zzzzzzz.",
+    "tarTarget": "你進入了夢鄉。Zzzzzzz… You fall asleep. Zzzzzzz."
+  },
+  {
+    "command": "/smack",
+    "tarNone": "你拍打自己的額頭。",
+    "tarTarget": "你朝:target的頭不停拍打。"
+  },
+  {
+    "command": "/smell & /stink",
+    "tarNone": "你聞了聞周圍的空氣。哇，有些人好臭啊！ You smell the air around you. Wow, someone stinks!",
+    "tarTarget": "你把鼻子湊過來聞了聞:target。哇，你好臭啊！ You smell :target. Wow, someone stinks!"
+  },
+  {
+    "command": "/smile",
+    "tarNone": "你露出了微笑。 You smile.",
+    "tarTarget": "你對:target露出了微笑。 You smile at :target."
+  },
+  {
+    "command": "/smirk",
+    "tarNone": "你的臉上漸漸的露出了奸笑。 A sly smirk spreads across your face.",
+    "tarTarget": "你對著:target奸笑。 You smirk slyly at :target."
+  },
+  {
+    "command": "/snap",
+    "tarNone": "你彈著手指。",
+    "tarTarget": "你對:target彈著手指。"
+  },
+  {
+    "command": "/snarl",
+    "tarNone": "你呲牙咧嘴地開始怒吼。 You bare your teeth and snarl.",
+    "tarTarget": "你呲牙咧嘴地朝著:target怒吼。 You bare your teeth and snarl at :target."
+  },
+  {
+    "command": "/sneak",
+    "tarNone": "你試著潛行逃走。",
+    "tarTarget": "你試著要從:target面前潛行逃走。"
+  },
+  {
+    "command": "/sneeze",
+    "tarNone": "你打了一個噴嚏。哈啾！",
+    "tarTarget": "你對著:target打噴嚏。哈啾！"
+  },
+  {
+    "command": "/snicker",
+    "tarNone": "你暗自偷笑。 You quietly snicker to yourself.",
+    "tarTarget": "你對著:target竊笑。 You snicker at :target."
+  },
+  {
+    "command": "/sniff",
+    "tarNone": "你嗅了嗅周圍的空氣。 You sniff the air around you.",
+    "tarTarget": "你仔細的嗅了嗅:target。 You sniff :target."
+  },
+  {
+    "command": "/snort",
+    "tarNone": "你哼氣出聲。",
+    "tarTarget": "你嘲弄的對:target哼氣出聲。"
+  },
+  {
+    "command": "/snub",
+    "tarNone": "你大聲訓斥著周圍卑賤的苦工。 You snub all of the lowly peons around you.",
+    "tarTarget": "你對:target十分冷淡。 You snub :target."
+  },
+  {
+    "command": "/soothe",
+    "tarNone": "你需要安慰。 You need to be soothed.",
+    "tarTarget": "你安撫著:target。一切……一切都會好的。 You soothe :target. There, there...things will be ok."
+  },
+  {
+    "command": "/spit",
+    "tarNone": "你朝地上吐口水。 You spit on the ground.",
+    "tarTarget": "你對著:target吐口水。 You spit on :target."
+  },
+  {
+    "command": "/squeal",
+    "tarNone": "你像豬一樣的嚎叫。",
+    "tarTarget": "你對:target發出豬叫聲。"
+  },
+  {
+    "command": "/stare",
+    "tarNone": "你凝視著遠方。 You stare off into the distance.",
+    "tarTarget": "你用目光壓倒了:target。 You stare :target down."
+  },
+  {
+    "command": "/surprised",
+    "tarNone": "你感到非常的驚訝！ You are so surprised!",
+    "tarTarget": "你對:target的行為感到很驚訝。 You are surprised by :target's actions."
+  },
+  {
+    "command": "/surrender",
+    "tarNone": "你向對手投降。 You surrender to your opponents.",
+    "tarTarget": "你向:target投降。失敗的滋味真不好受啊… You surrender before :target. Such is the agony of defeat..."
+  },
+  {
+    "command": "/suspicious",
+    "tarNone": "你懷疑的瞇起了雙眼。",
+    "tarTarget": "你懷疑的瞇起了雙眼。"
+  },
+  {
+    "command": "/sweat",
+    "tarNone": "你渾身冒汗。",
+    "tarTarget": "你一見到:target就渾身冒汗。"
+  },
+  {
+    "command": "/talk",
+    "tarNone": "You talk to yourself since no one else seems interested",
+    "tarTarget": "You want to talk things over with :target"
+  },
+  {
+    "command": "/tap",
+    "tarNone": "你不耐煩地用腳打著拍子，快一點！ You tap your foot. Hurry up already!",
+    "tarTarget": "你一邊用腳打著拍子一邊等待:target。 You tap your foot as you wait for :target."
+  },
+  {
+    "command": "/taunt",
+    "tarNone": "你對周圍的人做了個嘲弄的姿勢。記住了！笨蛋！ You taunt everyone around you. Bring it fools!",
+    "tarTarget": "你對:target做了個嘲弄的姿勢。記住了！ You make a taunting gesture at :target. Bring it!"
+  },
+  {
+    "command": "/tease",
+    "tarNone": "你真是個喜歡嘲弄別人的傢伙。 You are such a tease.",
+    "tarTarget": "你嘲弄了:target一番。 You tease :target."
+  },
+  {
+    "command": "/thank & /thanks & /ty",
+    "tarNone": "你向周圍的大家表示感謝。 You thank everyone around you.",
+    "tarTarget": "你對:target表示感謝。 You thank :target."
+  },
+  {
+    "command": "/think",
+    "tarNone": "你陷入了長考。 You are lost in thought. ",
+    "tarTarget": "你想到:target。 You think about :target"
+  },
+  {
+    "command": "/thirsty",
+    "tarNone": "你感到非常的口渴。有沒有人能給點喝的？ You are so thirsty. Can anyone spare a drink?",
+    "tarTarget": "你告訴:target你很渴。朋友，有沒有可以喝的？ You let :target know you are thirsty. Spare a drink?"
+  },
+  {
+    "command": "/tickle",
+    "tarNone": "你想要被搔癢。嘿嘿！ You want to be tickled. Hee hee!",
+    "tarTarget": "你對:target搔癢。嘿嘿！ You tickle :target. Hee hee!"
+  },
+  {
+    "command": "/tired",
+    "tarNone": "你告訴大家你已經很累了。 You let everyone know that you are tired.",
+    "tarTarget": "你告訴:target你已經很累了。 You let :target know that you are tired."
+  },
+  {
+    "command": "/truce",
+    "tarNone": "你提議休戰。",
+    "tarTarget": "你對:target提議休戰。"
+  },
+  {
+    "command": "/twiddle",
+    "tarNone": "你撥弄著你的拇指。",
+    "tarTarget": "你撥弄著你的拇指。"
+  },
+  {
+    "command": "/veto",
+    "tarNone": "你極力反對這樣的行為。 You veto the motion on the floor.",
+    "tarTarget": "你反對:target這樣做。 You veto :target's motion."
+  },
+  {
+    "command": "/victory",
+    "tarNone": "你沉醉在勝利的榮耀之中。 You bask in the glory of victory.",
+    "tarTarget": "你與:target一起分享勝利的榮耀。 You bask in the glory of victory with :target."
+  },
+  {
+    "command": "/violin",
+    "tarNone": "你小聲地哭了起來。 You begin to play the world's smallest violin.",
+    "tarTarget": "你在:target面前小聲地哭了起來。 You play the world's smallest violin for :target."
+  },
+  {
+    "command": "/wait",
+    "tarNone": "你要所有人等著。 You ask everyone to wait.",
+    "tarTarget": "你要:target等著。 <Player> asks :target to wait."
+  },
+  {
+    "command": "/warn",
+    "tarNone": "你警告大家。",
+    "tarTarget": "你警告:target。"
+  },
+  {
+    "command": "/welcome",
+    "tarNone": "你向大家表示歡迎。 You welcome everyone.",
+    "tarTarget": "你歡迎:target的到來。 You welcome :target."
+  },
+  {
+    "command": "/whine",
+    "tarNone": "你在可憐兮兮地訴苦。 You whine pathetically.",
+    "tarTarget": "你可憐兮兮地向:target訴苦。 You whine pathetically at :target."
+  },
+  {
+    "command": "/whistle",
+    "tarNone": "你響亮地吹了一聲口哨。 You let forth a sharp whistle.",
+    "tarTarget": "你對著:target吹了一聲口哨。 You whistle at :target."
+  },
+  {
+    "command": "/wink",
+    "tarNone": "你神秘地眨了眨眼。 You wink slyly.",
+    "tarTarget": "你神秘地朝:target眨了眨眼。 You wink slyly at :target."
+  },
+  {
+    "command": "/work",
+    "tarNone": "你開始工作。 You begin to work.",
+    "tarTarget": "你和:target一起工作。 You work with :target."
+  },
+  {
+    "command": "/yawn",
+    "tarNone": "你深深地打了個哈欠。 You yawn sleepily.",
+    "tarTarget": "你對著:target深深地打了個哈欠。 You yawn sleepily at :target."
+  }
+]

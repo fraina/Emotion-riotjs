@@ -1,0 +1,13 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><title>Emotion - riotjs version</title><link href="css/application.css" rel="stylesheet" type="text/css"><meta name="viewport" content="width=device-width,initial-scale=1"></head><body><header class="row m8 s12"><h5>魔獸表情文字產生器 ‧ World of Warcraft Emote Creator</h5><span>Author: Fraina Huang</span><a href="https://github.com/Fraina/Emotion-riotjs" class="mls">(Source on GitHub)</a></header><div class="m8 s12"><emotion></emotion></div><script src="bower/jquery/dist/jquery.min.js"></script><script src="bower/underscore/underscore-min.js"></script><script src="js/vendor/materialize.min.js"></script><script src="js/vendor/riotcontrol.js"></script><script src="bower/riot/riot.js"></script><script src="js/stores/emotionstore.js"></script><script src="js/constants/emotionconstants.js"></script><script src="js/views/emotion.js"></script><script src="js/views/filter.js"></script><script src="js/views/emotions.js"></script><script src="js/views/describe.js"></script><script type="text/javascript">var actionTypes = new EmotionActionTypes();
+var emotionStore = new EmotionStore();
+RiotControl.addStore(emotionStore);
+
+// 資料讀取完後才啟動視圖
+$.getJSON('js/data.json').done(function(data) {
+  var ret = [];
+  _.each(data, function(emotion) {
+    ret.push(emotion);
+  });
+  emotionStore.emotions = ret;
+  riot.mount('emotion')
+});</script></body></html>
